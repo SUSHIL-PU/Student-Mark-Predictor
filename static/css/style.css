@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    background-color: #00bfff;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+.container{
+    background-color: whitesmoke;
+    width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    /* box shadow added shadow effect around the element frame . parameters are 
+        x-offset, y-offset, blur-radius, color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: xx-large;
+    margin-bottom: .5rem;
+    font-weight: initial;
+    text-transform: capitalize;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-weight: lighter;
+}
+
+form input.inputBox{
+    width: 400px;
+    height: 30px;
+    font-size: large;
+}
+
+form input.submitBtn{
+    width: 125px;
+    background-color: cornflowerblue;
+    font-size: x-large;
+    padding: 5px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+h2{
+    background-color: antiquewhite;
+    font-size: large;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
